@@ -5,7 +5,7 @@ import colorama
 from colorama import Fore, Back, Style, init
 init()
 
-TOKEN = "TOKEN"
+TOKEN = "OTg2NjMzNjQwNjYwMzAzODcy.GWkGW0.eT-IjESlxRzZsKoyy41N55HKKS3rHBspXvU94s"
 
 client = commands.Bot(command_prefix = ";")
 client.remove_command("help")
@@ -76,4 +76,4 @@ async def nothing(ctx):
             except:
                 print("  DELETING ROLES: FAILED")
 
-client.run(TOKEN)
+client.run(OTg2NjMzNjQwNjYwMzAzODcy.GWkGW0.eT-IjESlxRzZsKoyy41N55HKKS3rHBspXvU94s)
